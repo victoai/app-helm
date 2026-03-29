@@ -21,7 +21,7 @@ redis:
   storage: 1Gi
 
 app:
-  image: ekchoi3912/was1:v1
+  image: woojooyeon/app:v7
   replicas: 3
   secret:
     mysqlUser: "frodo"
